@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    top: 0;
+    margin-left: 0;
+    scroll-behavior: smooth
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(69,86,100);
+    height: 100px;
+}
+
+.header #left #logo{
+    display: flex;
+    align-items: center;
+    height: 95px;
+    width: 90px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+
+.header #left #logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.header #left #nav{
+    column-gap: 30px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header #left #nav a{
+    text-decoration: none;
+    color: rgb(134,131,128);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter ;
+    font-size: 20px;
+}
+
+.header #left #nav a:hover{
+    color: RGB(199, 213, 224);
+    text-decoration: underline 3px ;
+}
+
+.header #right{
+    display: flex;
+    align-items: center;
+}
+
+
+.header #right i{
+    margin-right: 20px;
+    margin-left: 10px;
+    color: RGB(199, 213, 224);
+    font-size: 20px;
+}
+
+.about-me{
+    background-color: RGB(27, 40, 56);
+    height: 100vh;
+}
+
+
+
+.footer{
+    height: 80px;
+    background-color: rgb(69,86,100)
+}
