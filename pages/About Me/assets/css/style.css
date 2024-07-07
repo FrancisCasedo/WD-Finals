@@ -68,8 +68,30 @@
 .about-me{
     background-color: RGB(27, 40, 56);
     height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
+.about-me #left{
+    grid-column: 1;
+    height: 80%;
+    border: 1px solid black;
+    margin-top: 10%;
+    margin-left: 20%;
+    border-right: 1px solid  RGB(199, 213, 224);
+}
+
+.about-me #right{
+    border: 1px solid black;
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    margin-top: 10px;
+}
 
 
 .footer{
