@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     top: 0;
     margin-left: 0;
@@ -7,15 +7,15 @@
 
 
 
-.header{
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(69,86,100);
+    background-color: rgb(69, 86, 100);
     height: 15vh
 }
 
-.header #left #logo{
+.header #left #logo {
     display: flex;
     align-items: center;
     height: 15vh;
@@ -24,19 +24,23 @@
     padding-right: 10px;
 }
 
-.project img{
-    height: 50%;
-}
 
-.project #seatwork-4, #Seatwork-3{
-}
 
-.header #left #logo img{
+.header #left #logo img {
     width: 100%;
     height: 100%;
 }
 
-.header #left #nav{
+.header #left #logo img:hover{
+    transform: rotateY(360deg);
+    transition: transform .5s ease;
+}
+
+.header #left #logo a {
+    transform: rotateX(360deg);
+}
+
+.header #left #nav {
     column-gap: 30px;
     margin-left: 50px;
     display: flex;
@@ -45,44 +49,57 @@
 
 }
 
-.header #left #nav a{
+.header #left #nav a {
     text-decoration: none;
-    color: rgb(134,131,128);
+    color: rgb(134, 131, 128);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight:lighter ;
+    font-weight: lighter;
     font-size: 20px;
 }
 
-.header #left #nav a:hover{
+.header #left #nav a:hover {
     color: RGB(199, 213, 224);
-    text-decoration: underline 3px ;
+    text-decoration: underline 3px;
+    font-size: 25px;
+    transition: color 0.5s ease, font-size 0.2s ease;
 }
 
-.header #right{
+.header #right {
     display: flex;
     align-items: center;
 }
 
 
-.header #right i{
+.header #right i {
     margin-right: 20px;
     margin-left: 10px;
     color: RGB(199, 213, 224);
     font-size: 20px;
 }
 
-.top{
+.header #right i:hover {
+    transition: color 0.5s ease, font-size 0.2s ease;
+    font-size: 25px;
+    color: RGB(102, 153, 204);
+}
+
+.top {
     height: 10vh;
     background-color: RGB(27, 40, 56);
     display: flex;
     justify-content: center;
     align-items: center;
-    color:  RGB(102, 153, 204);
+    color: white;
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 1.6rem;
     padding-top: 5%;
 }
 
+.top h1:hover {
+    transition: color 0.5s ease, text-decoration 0.7s ease;
+    color: RGB(102, 153, 204);
+    text-decoration: underline white;
+}
 
 .project {
     display: flex;
@@ -93,25 +110,25 @@
     background-color: RGB(27, 40, 56);
 }
 
-.project a:hover{
+.project a:hover {
     transition: color 0.5s ease, text-decoration 0.5s ease, border 0.5s ease;
-    color:  RGB(102, 153, 204);
+    color: RGB(102, 153, 204);
     border: 8px solid RGB(199, 213, 224);
     font-size: larger;
     text-decoration: underline;
 }
 
-.project h1:hover{
-    color:  RGB(102, 153, 204);
+.project h1:hover {
+    color: RGB(102, 153, 204);
     transition: color 0.5s ease;
 }
 
-.project i:hover{
-    color:RGB(102, 153, 204);
+.project i:hover {
+    color: RGB(102, 153, 204);
 }
 
 
-.project a{
+.project a {
     height: 50%;
     width: 35vh;
     display: flex;
@@ -124,34 +141,34 @@
     padding: 10%;
 }
 
-.project h1{
+.project h1 {
     padding-top: 5%;
 }
 
-.project #Seatwork-2 h1{
+.project #Seatwork-2 h1 {
     padding-left: 20%;
 }
 
-.project #Seatwork-4{
+.project #Seatwork-4 {
     padding: 0;
 }
 
-.project h1{
+.project h1 {
     color: RGB(199, 213, 224);
 }
 
 
-.project i{
+.project i {
     height: 50%;
     width: 120%;
     padding: 0%;
     font-size: 20vh;
     padding-left: 50%;
-    color:  RGB(199, 213, 224);
+    color: RGB(199, 213, 224);
     top: 0;
 }
 
-.footer{
+.footer {
     height: 15vh;
-    background-color: rgb(69,86,100)
+    background-color: rgb(69, 86, 100)
 }
