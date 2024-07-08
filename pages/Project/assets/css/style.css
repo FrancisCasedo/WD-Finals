@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    top: 0;
+    margin-left: 0;
+    scroll-behavior: smooth
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(69,86,100);
+    height: 15vh
+}
+
+.header #left #logo{
+    display: flex;
+    align-items: center;
+    height: 15vh;
+    width: 15vh;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.project img{
+    height: 50%;
+}
+
+.project #seatwork-4, #Seatwork-3{
+    background-color: ;
+}
+
+.header #left #logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.header #left #nav{
+    column-gap: 30px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header #left #nav a{
+    text-decoration: none;
+    color: rgb(134,131,128);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:lighter ;
+    font-size: 20px;
+}
+
+.header #left #nav a:hover{
+    color: RGB(199, 213, 224);
+    text-decoration: underline 3px ;
+}
+
+.header #right{
+    display: flex;
+    align-items: center;
+}
+
+
+.header #right i{
+    margin-right: 20px;
+    margin-left: 10px;
+    color: RGB(199, 213, 224);
+    font-size: 20px;
+}
+
+.top{
+    height: 10vh;
+    background-color: RGB(27, 40, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  RGB(102, 153, 204);
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1.6rem;
+    padding-top: 5%;
+}
+
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    background-color: RGB(27, 40, 56);
+}
+
+.project a:hover{
+    color:  RGB(102, 153, 204);
+    border: 8px solid RGB(199, 213, 224);
+    font-size: larger;
+}
+
+.project a{
+    height: 50%;
+    width: 35vh;
+    border: 1px solid  rgb(69,86,100);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: RGB(199, 213, 224);
+    flex-direction: column;
+    margin-bottom: 10vh;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1rem;
+    padding: 10%;
+}
+
+.project #Seatwork-4{
+    padding: 0;
+}
+
+
+.project img{
+    height: 60%;
+    width: 100%;
+}
+
+.footer{
+    height: 15vh;
+    background-color: rgb(69,86,100)
+}
