@@ -95,18 +95,23 @@
 .about-me #left{
     grid-column: 1;
     height: 90%;
-    border: 1px solid black;
     margin-top: 5%;
     margin-left: 20%;
     border-right: 1px solid  RGB(199, 213, 224);
 }
 
 .about-me #right{
-    border: 1px solid black;
     grid-column: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.about-me #left img{
+    height: 85vh;
+    width: 75vh;
+    padding-top: 2%;
+    padding-left: 12%;
 }
 
 .about-me .about-me p{
@@ -131,6 +136,32 @@
 
 
 .footer{
-    height: 80px;
-    background-color: rgb(69,86,100)
+    height: 15vh;
+    background-color: rgb(69,86,100);
+    color: RGB(199, 213, 224);
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.footer #top{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+}
+
+.footer i {
+    margin-right: 20px;
+    margin-left: 10px;
+    color: RGB(199, 213, 224);
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.footer i:hover {
+    transition: color 0.5s ease, font-size 0.2s ease;
+    font-size: 25px;
+    color: RGB(102, 153, 204);
+}
+
