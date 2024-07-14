@@ -31,7 +31,7 @@
     height: 100%;
 }
 
-.header #left #logo img:hover{
+.header #left #logo img:hover {
     transform: rotateY(360deg);
     transition: transform .5s ease;
 }
@@ -83,59 +83,121 @@
     color: RGB(102, 153, 204);
 }
 
-.about-me{
-    background-color: RGB(27, 40, 56);
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.about-me #left{
-    grid-column: 1;
-    height: 90%;
-    margin-top: 5%;
-    margin-left: 20%;
-    border-right: 1px solid  RGB(199, 213, 224);
-}
-
-.about-me #right{
-    grid-column: 2;
+.top {
     display: flex;
     justify-content: center;
+    background: RGB(27, 40, 56);
+    padding-top: 40px;
+    color: RGB(176, 196, 222);
+    font-family: "Hanken Grotesk", sans-serif;
+    flex-direction: column;
+    row-gap: 10px;
     align-items: center;
+    height: 10vh;
 }
 
-.about-me #left img{
-    height: 85vh;
-    width: 75vh;
-    padding-top: 2%;
-    padding-left: 12%;
+.top p {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 1.2rem;
+    padding-bottom: 2%;
+    color: white;
 }
 
-.about-me .about-me p{
-    color: RGB(199, 213, 224);
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 20px;
-    padding-bottom: 30px;
-    padding-left: 25px;
-}
-
-.about-me h1{
-    font-family: "Hanken Grotesk", sans-serif;
-    color:  white;
-    padding-bottom: 20px;
-}
-
-.about-me h1:hover{
+.top h1:hover {
     transition: color 0.5s ease, text-decoration 0.7s ease;
-    color:  RGB(102, 153, 204);
-    text-decoration:underline white;
+    color: RGB(102, 153, 204);
+}
+
+.Contacts{
+    height: 90vh;
+    background-color: RGB(27, 40, 56);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5vh;
+}
+
+.Contacts  a{
+    text-decoration: none;
+    font-family: "Hanken Grotesk", sans-serif;
+    color: RGB(199, 213, 224);
 }
 
 
-.footer{
+
+.Contacts #social-media #list, .Contacts #social-media #list2 {
+    display: flex;
+    flex-direction: column;
+    height: 65vh;
+    border: 1vh solid RGB(199, 213, 224);
+    align-items: center;
+    width: 60vh;
+    margin-top: 5vh;
+}
+
+.Contacts #social-media #list:hover{
+    border: 2vh solid RGB(102, 153, 204);
+    transition: border ease 0.3s;
+}
+
+.Contacts #social-media #list2:hover{
+    border: 2vh solid RGB(102, 153, 204);
+    transition: border ease 0.3s;
+}
+
+.Contacts #social-media #list a, .Contacts #social-media #list2 a{
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    padding-bottom: 2vh;
+    column-gap: 2vh;
+}
+
+.Contacts #social-media #list h1, .Contacts #social-media #list2 h1{
+    color:RGB(102, 153, 204) ;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1.8rem;
+    padding-bottom: 3vh;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
+ #list h2, #list2 h2{
+    font-size: 1.2rem;
+ }
+
+ #list2 h3{
+    font-size: 1.1rem;
+ }
+
+#list a:hover{
+    color: RGB(102, 153, 204) ;
+    transition: color 0.5s ease, padding 0.5s ease;
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+#list2 a:hover{
+    color: RGB(102, 153, 204) ;
+    transition: color 0.5s ease, padding 0.5s ease;
+    padding: 2vh 2vh 2vh 2vh;
+}
+
+.Contacts #social-media #list h1:hover{
+    transition: color 0.5s ease;
+    color: RGB(199, 213, 224);
+}
+
+.Contacts #social-media #list2 h1:hover{
+    transition: color 0.5s ease;
+    color: RGB(199, 213, 224);
+}
+
+ .footer{
     height: 15vh;
     background-color: rgb(69,86,100);
     color: RGB(199, 213, 224);
@@ -164,4 +226,3 @@
     font-size: 25px;
     color: RGB(102, 153, 204);
 }
-
