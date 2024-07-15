@@ -4,12 +4,12 @@
 
 <br />
 <div align="center">
-    <a href="https://github.com/franciscasedo/">
-
-    <img src="./assets/img/Placeholder_Logo-removebg-preview-1.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/FrancisCasedo/">
+  <!-- TODO: If you want to add logo or banner you can add it here -->
+    <img src="./assets/img/Placeholder_Logo-removebg-preview-1.png" alt="Logo" width="130" height="100">
   </a>
-
-  <h3 align="center">Final-Project</h3>
+<!-- TODO: Change Title to the name of the title of your Project -->
+  <h3 align="center">Final Project</h3>
 </div>
 
 <div align="center">
