@@ -118,7 +118,7 @@ WD-ProjectName
 |Project 4|Feature Pages|https://franciscasedo.github.io/WD-Seatwork-4/|
 
 ## WakaTime Stats
-![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=@FrancisCasedo)
+![WakaTime Stats](https://github-readme-stats.vercel.app/api/wakatime?username=FrancisCasedo)
 
  <!--START_SECTION:waka-->
 
