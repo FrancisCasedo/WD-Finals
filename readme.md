@@ -5,21 +5,20 @@
 <br />
 <div align="center">
     <a href="https://github.com/franciscasedo/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
+
     <img src="./assets/img/Placeholder_Logo-removebg-preview-1.png" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
+
   <h3 align="center">Final-Project</h3>
 </div>
-<!-- TODO: Make a short description -->
+
 <div align="center">
   A website that shows shallow information and a showcase of my past activities
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
+
 ![](https://visit-counter.vercel.app/counter.png?page=franciscasedo/WD-Finals)
 
 ---
@@ -27,7 +26,7 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
+
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -55,20 +54,20 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
+
 <!-- The following are just sample -->
 Description of the project in details.
 
 This is my final project in the course IT0043L and also serves as my Personal WEbsite, the website includes a pathway to all my past activities, a page that introduces myself, a page that shows all the application and websites I used in creating this and the past projects, and a page that shows all my social Media account and my contacts
 
 ### Key Components
-<!-- TODO: List of Key Components -->
+
 <!-- The following are just sample -->
 - MultiPage Website
 - Animation
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -84,7 +83,9 @@ This is my final project in the course IT0043L and also serves as my Personal WE
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-Finals
+└─.github/workflows
+     └─ Wakatime.yml
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -108,7 +109,7 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
+
 | Title | Purpose | Link |
 |-|-|-|
 | Inspired Layout | Layout of the website is influenced by this| https://naiahhh.github.io/LANDING-AWD-FEUTECH/index.html |
