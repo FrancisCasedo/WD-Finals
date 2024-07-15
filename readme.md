@@ -119,9 +119,9 @@ WD-ProjectName
 
 ## WakaTime Profile
 
-[WakaTime](https://wakatime.com/@YourUsername).
+My wakatime account: [FrancisCasedo](https://wakatime.com/@FrancisCasedo).
 
-## WakaTime Stats
+
 
  <!--START_SECTION:waka-->
 
