@@ -13,7 +13,7 @@
 </div>
 
 <div align="center">
-  A website that shows shallow information and a showcase of my past activities
+  A website that acts as my Final Project and my personal website which shows information about myself and a showcase of my past activities, creativity and skills
 </div>
 
 <br />
