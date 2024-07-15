@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=franciscasedo/WD-Final-Project)
+![](https://visit-counter.vercel.app/counter.png?page=franciscasedo/WD-Finals)
 
 ---
 
@@ -59,7 +59,7 @@
 <!-- The following are just sample -->
 Description of the project in details.
 
-This is my final project in the course IT0043L, the website includes a pathway to all my past activities and section about myself
+This is my final project in the course IT0043L and also serves as my Personal WEbsite, the website includes a pathway to all my past activities, a page that introduces myself, a page that shows all the application and websites I used in creating this and the past projects, and a page that shows all my social Media account and my contacts
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -112,3 +112,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Inspired Layout | Layout of the website is influenced by this| https://naiahhh.github.io/LANDING-AWD-FEUTECH/index.html |
+|Project 1|Basic Resume Website|https://franciscasedo.github.io/WD-Seatwork-2/|
+|Project 2|Headers and Footers|https://franciscasedo.github.io/WD-Seatwork-3/|
+|Projact 3|Hero and Card Display|https://franciscasedo.github.io/WD-Hands-On-2/|
+|Project 4|Feature Pages|https://franciscasedo.github.io/WD-Seatwork-4/|
