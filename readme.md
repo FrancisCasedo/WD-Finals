@@ -116,3 +116,7 @@ WD-ProjectName
 |Project 2|Headers and Footers|https://franciscasedo.github.io/WD-Seatwork-3/|
 |Projact 3|Hero and Card Display|https://franciscasedo.github.io/WD-Hands-On-2/|
 |Project 4|Feature Pages|https://franciscasedo.github.io/WD-Seatwork-4/|
+
+
+ <!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
