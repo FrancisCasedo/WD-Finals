@@ -127,9 +127,8 @@ My wakatime account: [FrancisCasedo](https://wakatime.com/@FrancisCasedo).
  <!--START_SECTION:waka-->
 
 ```txt
-Python   1 hr 27 mins    ██████████████████████░░░   87.74 %
-Java     9 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   09.19 %
-Other    3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.07 %
+Python   2 hrs 18 mins   █████████████████████████   99.89 %
+Other    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 %
 ```
 
 <!--END_SECTION:waka-->
