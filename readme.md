@@ -127,7 +127,9 @@ My wakatime account: [FrancisCasedo](https://wakatime.com/@FrancisCasedo).
  <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+HTML    8 mins          ███████████████████████░░   91.87 %
+CSS     0 secs          █▓░░░░░░░░░░░░░░░░░░░░░░░   06.64 %
+Other   0 secs          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.49 %
 ```
 
 <!--END_SECTION:waka-->
