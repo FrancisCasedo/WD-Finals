@@ -127,8 +127,8 @@ My wakatime account: [FrancisCasedo](https://wakatime.com/@FrancisCasedo).
  <!--START_SECTION:waka-->
 
 ```txt
-PHP   2 hrs 50 mins   ████████████████░░░░░░░░░   64.51 %
-CSS   1 hr 34 mins    █████████░░░░░░░░░░░░░░░░   35.49 %
+PHP   1 hr 30 mins    █████████████▒░░░░░░░░░░░   53.17 %
+CSS   1 hr 19 mins    ███████████▓░░░░░░░░░░░░░   46.83 %
 ```
 
 <!--END_SECTION:waka-->
