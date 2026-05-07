@@ -127,11 +127,11 @@ My wakatime account: [FrancisCasedo](https://wakatime.com/@FrancisCasedo).
  <!--START_SECTION:waka-->
 
 ```txt
-Python       3 hrs 41 mins         █████████████▓░░░░░░░░░░░   54.20 %
-JavaScript   1 hr 8 mins           ████▒░░░░░░░░░░░░░░░░░░░░   16.86 %
-Text         1 hr 3 mins           ████░░░░░░░░░░░░░░░░░░░░░   15.49 %
-YAML         18 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
-JSON         12 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.04 %
+Python       1 hr 50 mins          █████████▓░░░░░░░░░░░░░░░   38.55 %
+JavaScript   1 hr 6 mins           █████▓░░░░░░░░░░░░░░░░░░░   23.28 %
+YAML         38 mins               ███▒░░░░░░░░░░░░░░░░░░░░░   13.33 %
+Text         34 mins               ███░░░░░░░░░░░░░░░░░░░░░░   11.96 %
+JSON         12 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 %
 ```
 
 <!--END_SECTION:waka-->
