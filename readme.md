@@ -127,9 +127,11 @@ My wakatime account: [FrancisCasedo](https://wakatime.com/@FrancisCasedo).
  <!--START_SECTION:waka-->
 
 ```txt
-Git Config   18 mins               █████████████▒░░░░░░░░░░░   53.13 %
-Python       15 mins               ███████████▒░░░░░░░░░░░░░   45.67 %
-Bash         0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.20 %
+Git Config   20 mins               █████████▒░░░░░░░░░░░░░░░   37.14 %
+Python       15 mins               ███████▒░░░░░░░░░░░░░░░░░   29.18 %
+Markdown     12 mins               █████▓░░░░░░░░░░░░░░░░░░░   23.25 %
+Bash         4 mins                ██░░░░░░░░░░░░░░░░░░░░░░░   07.91 %
+Other        0 secs                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.71 %
 ```
 
 <!--END_SECTION:waka-->
